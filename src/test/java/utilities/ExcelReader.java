@@ -1,7 +1,13 @@
 package utilities;
 
+import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
+import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.Paths;
+import java.nio.file.StandardCopyOption;
 import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.List;
@@ -107,7 +113,7 @@ public class ExcelReader {
 				if (getCellData(sheetName, colnum, sourceRow).equals(this.getCellData(sheetName, colnum, destRow))) {
 					continue;
 				} else if (getCellData(sheetName, colnum, sourceRow)
-						.equals(this.getCellData(sheetName, colnum, destRow)+ ".0")) {
+						.equals(this.getCellData(sheetName, colnum, destRow) + ".0")) {
 					continue;
 				} else {
 					highLight(sheetName, colnum, destRow);
@@ -606,23 +612,17 @@ public class ExcelReader {
 		// check if sheet exists
 		if (!isSheetExist(sheetName))
 			return -1;
-
 		sheet = workbook.getSheet(sheetName);
-		row = sheet.getRow(0);
-		if (row == null)
-			return -1;
-		else {
-			int maxcolcount = 0;
-			int rowindex;
-			for (rowindex = 0; rowindex <= sheet.getLastRowNum(); rowindex++) {
-				if (sheet.getRow(rowindex) != null) {
-					if (maxcolcount < sheet.getRow(rowindex).getLastCellNum()) {
-						maxcolcount = sheet.getRow(rowindex).getLastCellNum();
-					}
+		int maxcolcount = 0;
+		int rowindex;
+		for (rowindex = 0; rowindex <= sheet.getLastRowNum(); rowindex++) {
+			if (sheet.getRow(rowindex) != null) {
+				if (maxcolcount < sheet.getRow(rowindex).getLastCellNum()) {
+					maxcolcount = sheet.getRow(rowindex).getLastCellNum();
 				}
 			}
-			return maxcolcount;
 		}
+		return maxcolcount;
 	}
 
 	// String sheetName, String testCaseName,String keyword ,String URL,String
