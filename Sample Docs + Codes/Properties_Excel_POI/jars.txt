@@ -1,0 +1,451 @@
+Selenium 4 WebDriver with Java(Basics + Advance + Architect)
+Course image
+55. POI JARS
+Course content
+Play
+1. Introduction and Important points to know before you start the course
+12min
+Start
+2. FIXING THE BLURRED VIDEO SCREEN
+1min
+Start
+3. Selenium 4.0 Latest Features update
+1min
+Play
+4. What is Selenium?
+20min
+Play
+5. UPDATE - New Website walkthrough
+5min
+Play
+6. What is an API?
+22min
+Play
+7. Understanding Selenium as an API
+37min
+Play
+8. Running Test through Selenium IDE
+29min
+Play
+9. Difference in RC, WebDriver and Grid
+25min
+Play
+10. Scope and Conclusion
+16min
+Play
+11. Difference in Selenium 1, 2, 3 & 4 versions
+13min
+Play
+12. Selenium 4 Walkthrough with Updates and New Features
+9min
+Play
+13. The new Selenium IDE
+5min
+Play
+14. Introduction to Core Java
+43min
+Start
+15. Download ALL Java PDF Lectures
+1min
+Play
+16. MAC OS X - Installing Java & configuring environment variables
+3min
+Play
+17. Basic Java programming and features - Part 1
+21min
+Play
+18. Basic Java programming and features - Part 2
+17min
+Play
+19. Java Methods - Part 1
+15min
+Play
+20. Java Methods - Part 2
+10min
+Play
+21. Java Methods - Part 3
+17min
+Play
+22. Java Methods Part 4
+9min
+Play
+23. Java Methods Part 5 - PreDefined Methods and Math.Random()
+14min
+Play
+24. Java Methods Part 6 - Static and Non Static Methods
+15min
+Play
+25. IF and Else Statements
+10min
+Play
+26. Switch Case statement
+11min
+Start
+27. Code and PPTs for Download from Methods and IFandElse
+1min
+Play
+28. Loops - While Loop
+12min
+Play
+29. Loops - Do While Loop
+4min
+Play
+30. Loops - For Loop
+12min
+Play
+31. Loops - Nested Loops
+17min
+Play
+32. Loops - Break and Continue statements
+13min
+Start
+33. Download the Loops code and PPT files
+1min
+Play
+34. Arrays - 1D Array
+21min
+Play
+35. Arrays - 2D Array
+14min
+Play
+36. Arrays - 3D Array
+12min
+Start
+37. Download the code and PDF lecture
+1min
+Play
+38. Exception Handling - Part 1
+19min
+Play
+39. Exception Handling - Part 2
+17min
+Play
+40. Packages and Access Modifiers
+28min
+Play
+41. OOPS - Encapsulation
+32min
+Play
+42. OOPS - Inheritance
+30min
+Play
+43. OOPS - Polymorphism - OverLoading
+27min
+Play
+44. OOPS - Polymorphism - Overriding
+31min
+Play
+45. OOPS - Polymorphism - Overriding benefits and drawbacks
+30min
+Play
+46. OOPS - Abstract classes
+23min
+Play
+47. OOPS - Interfaces
+20min
+Play
+48. Constructors and This Keyword
+17min
+Play
+49. Super Keyword
+12min
+Play
+50. Reading Properties files
+15min
+Play
+51. Java Streams - Writing in TXT and CSV files
+20min
+Play
+52. Java Stream - Writing HTML Files and Reading files
+10min
+Play
+53. Java Stream - Apache POI Creating and Writing Excel Files
+18min
+Play
+54. Java Stream - Apache POI Reading Excel Files, Extended Loops
+12min
+Start
+55. POI JARS
+1min
+Play
+56. Reading Notepad file
+16min
+Start
+57. Reading and Writing Notepad and Properties file - code
+1min
+Play
+58. Collections - Wrapper Classes, Autoboxing and Unboxing
+13min
+Play
+59. Collections - ArrayList
+25min
+Play
+60. Collections - HashSet
+12min
+Play
+61. Collections - HashMap
+13min
+Play
+62. Reflection API
+22min
+Start
+63. Code from Access Modifiers, OOPS, Collection API, Reflection API lectures
+0min
+Play
+64. Difference between == & equal to operator and Singleton design pattern
+14min
+Play
+65. Apache Log4J API - Console & File Appenders
+12min
+Play
+66. Apache Log4J API - SMTPAppender
+5min
+Play
+67. Apache Log4J API HTMLAppender
+2min
+Start
+68. Apache Log4j API - Project code
+1min
+Start
+414. Commonly Asked Java and Selenium interview Questions
+6min
+information alert
+Schedule learning time
+Learning a little each day adds up. Research shows that students who make learning a habit are more likely to reach their goals. Set time aside to learn and get reminders using your learning scheduler.
+#1 2022 TOP RATED, BEST SELLER Course on SELENIUM 4.0, Trusted by 500,000+ students with Many Live Projects & Frameworks
+Rating: 4.6 out of 5
+4.6
+16,453 ratings
+148,993
+Students
+143 hours
+Total
+Last updated November 2022
+English
+English [Auto], Dutch [Auto]
+What you'll learn
+****By the End of the course you will be as much trained to automate any web based application using Selenium*****
+*****You will be working on many Live projects, Design complex frameworks and Design interactive Reports using ReportNG, XSLT, Extent Reports etc*****
+*****You should be able to work with utilities like: ANT, MAVEN, JENKINS, DOCKERS, GRID for Parallel Execution, LOG4J API, JAVAMAIL API, APACHE POI API, JDBC Connection for Database Testing etc****
+****Many pdf files, course code & other reference material will be provided along with the video lectures*****
+****By the end of the course you should be able to Master Selenium Automation & crack any interview*****
+By the end of this course you should be able to design major frameworks from scratch like: Data Driven, Keyword Driven, Hybrid, Page Object Model, Page Factories, CucumberBDD etc
+You should be able to justify 2-3 years of your existing experience in Selenium
+You should be able to work on Live Projects, Manipulate complex Xpath, CSS and important locators
+Many pdf files, course code and other reference material will be provided along with the video lectures
+Description
+In depth Course on Selenium WebDriver 4.0 Latest version Trusted by 500,000+ students, Includes many Live Projects & End 2 End Frameworks
+
+
+
+NO OTHER COURSE IN THE INDUSTRY TO COVER THESE MANY IN-DEPTH TOPICS ON SELENIUM - 140+ HOURS, 450+ LECTURES
+
+
+
+
+
+~~~~~COURSE RECENTLY UPDATED WITH LATEST SELENIUM 4, GRID 4, DOCKER Integration, AWS CLOUD Integration, Chrome DevTools Protocol (CDP), CUCUMBER 6.10 and EXTENT REPORT 5 SERIES in MARCH 2022 ~~~~~~
+
+
+
+
+
+      Selenium a Web based automation testing tool that automates anything and everything available on a Web page. Initially started by Thoughtworks and currently Google developers are supporting the latest version i.e. WebDriver. 
+
+                   These lecture will provide you full hands on session on how you can automate web based applications and implement various frameworks such as Data driven, Hybrid, Page Object model, Page factories, Cucumber BDD etc. 
+
+                  Here, you will find the detailed content which will help you get started on Selenium and build your java programming basics.
+
+This course is the first Selenium course on Udemy and covers over 100+ hours of topics which no other Selenium courses in the industry covers in this much depth. Along with this the other part of this course focuses majorly on the Architect level topics where we will see detailed implementation of 7 Live projects with many frameworks and approaches covered which will include, Parallel execution frameworks, Multithreading, Java Generics, Virtual environment
+
+including Dockers etc and the base of all is you will get in-depth knowledge on Core Java that covers basic if, else, loops arrays, basic OOPS - inheritance, polymorphism, interfaces, abstract classes, Collections, Reflections and many more topics related to java i.e. File Handling, Log4j, JavaMAIL API, Interactive report generation using ReportNG, Extent Reports etc
+
+
+
+Learn All Major Reporting and Customization:
+
+
+
+1. TestNG Reports
+
+2. ReportNG
+
+3. Extent Reports
+
+4. Allure Reports
+
+5. Cucumber JVM Reporting
+
+
+
+---------------What our students says------------
+
+
+
+Nitin Gupta:
+
+
+
+Beautifully Explained With Step By Step Instructions! We Have Come A Long Way From 2013 To 2022!! Kudos
+
+
+
+
+
+
+
+Mansi Dalal:
+
+
+
+I would like to short and sweet. This is the best training videos for selenium. I have taken a classes but this is better than classes. Going in detail covering everything. Including interview questions and assignments. 100 out of 100. Buy Buy Buy.. I contacted tutor and he replied too.. What else you want.
+
+
+
+
+
+
+
+Balaji Ramanan:
+
+
+
+Indepth explanation.Finding it useful. I see this course to be one stop solution to selenium, appium, frameworks,DB testing . No other course provides this sort of patient explanation. Would like to appreciate the instructor's passion towards teaching the concepts under 1 course. Reason for saying so is, many commercial people would split this course length into 5 to 6 parts and make money.
+
+
+
+
+
+
+
+Sk Amir Ullah:
+
+
+
+Just beyond my expectation. An amazing course with in depth explanation. Whether you are a beginner or experienced in Automation just blindly go with this course.
+
+
+
+I am enjoying the course.
+
+
+
+The best part of this course i found that the instructor "Rahul" is very active. When you get stuck, don't worry just put your query and it will be solved with the most genuine solution within 12 hours , which means a lot............ :)
+
+
+
+
+
+
+
+Amit Verma:
+
+
+
+I have found this course very helpful and very well organized. It is explained very well theoretically as well as practically. I really recommend this course for anyone with non some background of programming.
+
+
+
+
+
+Ranjit Kumar:
+
+
+
+The way of teaching is really excellent any one can understand easily event the person who are not from the coding background,I have learnt how to do code optimization and new updates tool.
+
+
+
+
+
+
+
+
+
+                 Benefits from the Course: 
+
+
+
+Life time access to 140+ hours of Advance Selenium video lectures.
+
+Life time best support in your queries.
+
+Get chance to work on Many live projects with in-depth framework designing and end to end automation
+
+You should be able to justify 2-3 years of your current experience in Automation after this course
+
+
+
+                   Apart from Selenium various other APIs are integrated as well like TestNG, ReportNG, Log4J, JavaMAIL API, Extent Reports etc which will help you a lot in designing powerful frameworks. At the end of the training you will be able to automate any web based application of your own and should be able to work on live projects. After the course you should be able to justify 3+ years of your current experience in Selenium and can crack any Selenium automation interview easily 
+
+                   Many assignments, PDF lectures and source code for each module is available for download.                   
+
+Not only this the best advantage of this course is the level of support you will get in your queries and automation projects where ever you are stuck with.
+
+Support will be provided through Q&A section of this course
+
+So being the biggest Selenium course in the industry I always make sure to update the course with latest API changes so anything that you need to learn in Selenium you will find that topics in this course and if not then you can message me and If the topic is relevant then I will include in the course.
+
+Who this course is for:
+####The course is designed in a such a way that even a beginner with zero knowledge in Manual testing or Automation or programming can master this course####
+####Complete Core Java is covered from scratch####
+####All prerequisite are covered from scratch with complete end to end installation of various softwares and apis####
+####1.25 Lakh Students enrolled with thousands of 5 Star ratings####
+####Bestseller seller Selenium course on Udemy and in the industry####
+Many Real time websites and live projects covered with complex framework and architecture designing concepts
+Many interview questions and tips provided to crack complex automation interviews
+Selenium RC Users who wish to migrate their projects in WebDriver
+Manual Testers who wants to switch to Automation testing
+Automation testers who wants to enhance their current skills
+Test Managers
+Instructor
+Rahul Arora
+Way2Automation - Director & The Automation Guru
+               Entrepreneur at Way2Automation 
+
+  Trained over 500,000+ students world wide in Selenium Webdriver, Appium - Mobile Automation Testing, Cypress, API Webservices Testing and framework designing. Conducted various Online trainings, corporate trainings and face to face trainings across the Globe. 
+
+                    Worked with various CMM level orgranizations. Involved in setting up of manual and automation testing teams. Implemented various automation projects using Selenium API, QTP, SOAP UI, Webservices, Protractor JMeter etc. Created & Implemented various frameworks such as Page Object Model, Data Driven, Hybrid etc. 
+
+Featured review
+Sk Amir U.
+173 courses
+3 reviews
+Rating: 5.0 out of 5
+3 years ago
+Just beyond my expectation. An amazing course with in depth explanation. Whether you are a beginner or experienced in Automation just blindly go with this course. I am enjoying the course. The best part of this course i found that the instructor "Rahul" is very active. When you get stuck, don't worry just put your query and it will be solved with the most genuine solution within 12 hours , which means a lot............ :)
+Was this review helpful?
+
+Requirements
+No prior Java / coding knowledge required as everything is taught from the scratch
+All topics are covered in detailed with live programming in the lectures which will make you feel as in you are studying in a live class room
+Course includes many live projects and in depth framework creation
+Many PDF Lectures, Module and Frameworks code, PPTs, Theoretical materials, Interview questions, Sample resumes etc are available for download in the course
+© 2023 Udemy, Inc.
+55. POI JARS
+POI JARS
+Download the latest POI Jars:
+
+
+
+https://repo1.maven.org/maven2/org/apache/poi/poi/4.1.0/poi-4.1.0.jar
+
+
+
+https://repo1.maven.org/maven2/org/apache/poi/poi-ooxml/4.1.0/poi-ooxml-4.1.0.jar
+
+
+
+https://repo1.maven.org/maven2/org/apache/poi/poi-ooxml-schemas/4.1.0/poi-ooxml-schemas-4.1.0.jar
+
+
+
+https://repo1.maven.org/maven2/dom4j/dom4j/1.6.1/dom4j-1.6.1.jar
+
+
+
+https://repo1.maven.org/maven2/org/apache/xmlbeans/xmlbeans/3.1.0/xmlbeans-3.1.0.jar
+
+
+
+Watch the UPDATES section of the course to get the latest ExcelReader file

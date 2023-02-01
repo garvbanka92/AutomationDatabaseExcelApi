@@ -1,0 +1,275 @@
+Pyramid Pattern Programs in Java
+Published on August 4, 2022
+Java
+Default avatar
+By Pankaj
+Developer and author at DigitalOcean.
+Pyramid Pattern Programs in Java
+While we believe that this content benefits our community, we have not yet thoroughly reviewed it. If you have any suggestions for improvements, please let us know by clicking the “report an issue“ button at the bottom of the tutorial.
+
+Pattern programs are used a lot in interviews to understand the logical thinking abilities of the interviewee. Pyramid patterns are very popular and once we get the logic on the way it’s created, writing code to achieve the same is an easy task.
+
+Pyramid Pattern Programs in Java
+Pyramid Pattern Programs in JavaHere I am providing some examples to create different pyramid patterns from numbers, symbols etc. We will also look into some examples of creating inverted pyramid pattern in java program. We will try to keep the code simple so that it can be easily understood.
+
+Pyramid Pattern of Numbers
+If you look at the first pattern, every row contains the same number printed the same number of times. However, every row has leading white spaces whose count is “rows-i”. Let’s look at the program to print this pattern.
+
+package com.journaldev.patterns.pyramid;
+
+import java.util.Scanner;
+
+public class PyramidPattern {
+
+	private static void printPattern1(int rows) {
+		// for loop for the rows
+		for (int i = 1; i <= rows; i++) {
+			// white spaces in the front of the numbers
+			int numberOfWhiteSpaces = rows - i;
+
+			//print leading white spaces
+			printString(" ", numberOfWhiteSpaces);
+
+			//print numbers
+			printString(i + " ", i);
+
+			//move to next line
+			System.out.println("");
+		}
+	}
+
+	//utility function to print string given times
+	private static void printString(String s, int times) {
+		for (int j = 0; j < times; j++) {
+			System.out.print(s);
+		}
+	}
+
+	public static void main(String[] args) {
+
+		Scanner scanner = new Scanner(System.in);
+		System.out.println("Please enter the rows to print:");
+		int rows = scanner.nextInt();
+		// System.out.println("Rows = "+rows);
+		scanner.close();
+
+		System.out.println("Printing Pattern 1\n");
+		printPattern1(rows);
+
+	}
+
+}
+Notice that I have created a utility function for common string printing task. If you can divide your program into short reusable functions, then it shows that you are not only looking to write the program but also want to make sure of its quality and reusability. When we run above program, we get the following output.
+
+Please enter the rows to print:
+9
+Printing Pattern 1
+
+        1 
+       2 2 
+      3 3 3 
+     4 4 4 4 
+    5 5 5 5 5 
+   6 6 6 6 6 6 
+  7 7 7 7 7 7 7 
+ 8 8 8 8 8 8 8 8 
+9 9 9 9 9 9 9 9 9 
+Pyramid Pattern Java Program Output
+Pyramid Pattern Java Program Output
+Pyramid Pattern of Increasing Numbers
+Here is the function to print pattern 2. The key point to note is the number of leading white spaces and then the numbers are getting printed in increasing order.
+
+/**
+ * 
+ * Program to print below pyramid structure
+ *      1         
+       1 2        
+      1 2 3       
+     1 2 3 4      
+    1 2 3 4 5     
+   1 2 3 4 5 6    
+  1 2 3 4 5 6 7   
+ 1 2 3 4 5 6 7 8  
+1 2 3 4 5 6 7 8 9 
+*/
+private static void printPattern2(int rows) {
+	// for loop for the rows
+	for (int i = 1; i <= rows; i++) {
+		// white spaces in the front of the numbers
+		int numberOfWhiteSpaces = rows - i;
+
+		//print leading white spaces
+		printString(" ", numberOfWhiteSpaces);
+
+		//print numbers
+		for(int x = 1; x<=i; x++) {
+			System.out.print(x+" ");
+		}
+
+		//move to next line
+		System.out.println("");
+	}
+}
+Pyramid of Characters
+This is a really simple one, we just have to print the character without any calculations or manipulations.
+
+/**
+ * Program to print following pyramid structure
+        *         
+       * *        
+      * * *       
+     * * * *      
+    * * * * *     
+   * * * * * *    
+  * * * * * * *   
+ * * * * * * * *  
+* * * * * * * * * 
+
+*/
+private static void printPattern3(int rows) {
+	// for loop for the rows
+	for (int i = 1; i <= rows; i++) {
+		// white spaces in the front of the numbers
+		int numberOfWhiteSpaces = rows - i;
+
+		//print leading white spaces
+		printString(" ", numberOfWhiteSpaces);
+
+		//print character
+		printString("* ", i);
+
+		//move to next line
+		System.out.println("");
+	}
+}
+Pyramid Pattern 4 Program
+/**
+* 
+*               1 
+              1 2 1 
+            1 2 3 2 1 
+          1 2 3 4 3 2 1 
+        1 2 3 4 5 4 3 2 1 
+      1 2 3 4 5 6 5 4 3 2 1 
+    1 2 3 4 5 6 7 6 5 4 3 2 1 
+  1 2 3 4 5 6 7 8 7 6 5 4 3 2 1 
+1 2 3 4 5 6 7 8 9 8 7 6 5 4 3 2 1 
+*/
+
+private static void printPattern4(int rows) {
+	// for loop for the rows
+	for (int i = 1; i <= rows; i++) {
+		// white spaces in the front of the numbers
+		int numberOfWhiteSpaces = (rows-i)*2;
+
+		//print leading white spaces
+		printString(" ", numberOfWhiteSpaces);
+
+		//print numbers
+		for(int x=1; x0; j--) {
+			System.out.print(j+" ");
+		}
+
+		//move to next line
+		System.out.println("");
+	}
+}
+Notice that every row has 2*r-1 numbers. So we will have (rows-i)*2 whitespaces before we print any number. Then the numbers are starting from 1 to “i” and then to 1 again. Our logic to print the numbers would require two for-loops to achieve this.
+
+Pyramid Pattern 5 Program in Java
+/**
+ * 
+ *                9 
+                8 9 8 
+              7 8 9 8 7 
+            6 7 8 9 8 7 6 
+          5 6 7 8 9 8 7 6 5 
+        4 5 6 7 8 9 8 7 6 5 4 
+      3 4 5 6 7 8 9 8 7 6 5 4 3 
+    2 3 4 5 6 7 8 9 8 7 6 5 4 3 2 
+  1 2 3 4 5 6 7 8 9 8 7 6 5 4 3 2 1 
+*/
+private static void printPattern5(int rows) {
+	// for loop for the rows
+	for (int i = rows; i >= 1; i--) {
+		// white spaces in the front of the numbers
+		int numberOfWhiteSpaces = i*2;
+
+		//print leading white spaces
+		printString(" ", numberOfWhiteSpaces);
+
+		//print numbers
+		for(int x=i; x=i; j--) {
+			System.out.print(j+" ");
+		}
+
+		//move to next line
+		System.out.println("");
+	}
+}
+Inverted Pyramid Pattern of Characters
+Here is the code snippet for the inverted pyramid program.
+
+/**
+ * 
+* * * * * * * * * 
+ * * * * * * * * 
+  * * * * * * * 
+   * * * * * * 
+    * * * * * 
+     * * * * 
+      * * * 
+       * * 
+        * 
+ */
+private static void printPattern6(int rows) {
+	// for loop for the rows
+	for (int i = rows; i >= 1; i--) {
+		// white spaces in the front of the numbers
+		int numberOfWhiteSpaces = rows - i;
+
+		//print leading white spaces
+		printString(" ", numberOfWhiteSpaces);
+
+		//print character
+		printString("* ", i);
+
+		//move to next line
+		System.out.println("");
+	}
+}
+Inverted Pyramid Pattern of Numbers
+Let’s look at an example of inverted pyramid pattern made of numbers.
+
+	/**
+	 * 
+9 9 9 9 9 9 9 9 9 
+ 8 8 8 8 8 8 8 8 
+  7 7 7 7 7 7 7 
+   6 6 6 6 6 6 
+    5 5 5 5 5 
+     4 4 4 4 
+      3 3 3 
+       2 2 
+        1 
+	 */
+private static void printPattern7(int rows) {
+	// for loop for the rows
+	for (int i = rows; i >= 1; i--) {
+		// white spaces in the front of the numbers
+		int numberOfWhiteSpaces = rows - i;
+
+		//print leading white spaces
+		printString(" ", numberOfWhiteSpaces);
+
+		//print character
+		printString(i+" ", i);
+
+		//move to next line
+		System.out.println("");
+	}
+}
+Conclusion
+There are many types of pyramid patterns. The most important point is to understand the pattern in which numbers and whitespaces are organized. Once you are clear about the pattern, you can write code easily in Java or any other programming language too. Please let me know if you are looking for any specific pattern program and I will try to help you out.
+
+Further Reading

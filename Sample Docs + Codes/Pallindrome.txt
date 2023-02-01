@@ -1,0 +1,26 @@
+import java.util.*;
+
+class Solution {
+    public static String solution(int N, int K) {
+        String alph = "abcdefghijklmnopqrstuvwxyz";
+        String alphRev = "zyxwvutsrqponmlkjihgfedcba";
+        
+        String s;
+        String sRev;
+        int between = 0;
+        String bw = "";
+
+        if(K > (N / 2)) {
+            s = alph.substring(0, K);
+            sRev =  alphRev.substring(26 - K + 1, 26);
+        } else {
+            s = alph.substring(0, K);
+            sRev =  alphRev.substring(26 - K, 26);
+
+            between = N - (K * 2);
+            bw = "a".repeat(between);
+        }
+
+        return s + bw + sRev;
+    }
+}
